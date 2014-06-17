@@ -21,6 +21,7 @@
 		1146A5AF195090F3002F5544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1146A591195090F3002F5544 /* UIKit.framework */; };
 		1146A5B7195090F4002F5544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1146A5B5195090F4002F5544 /* InfoPlist.strings */; };
 		1146A5B9195090F4002F5544 /* PTOutlineButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1146A5B8195090F4002F5544 /* PTOutlineButtonExampleTests.m */; };
+		1146A5C41950919F002F5544 /* PTOutlineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1146A5C31950919F002F5544 /* PTOutlineButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1146A5B4195090F4002F5544 /* PTOutlineButtonExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTOutlineButtonExampleTests-Info.plist"; sourceTree = "<group>"; };
 		1146A5B6195090F4002F5544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1146A5B8195090F4002F5544 /* PTOutlineButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTOutlineButtonExampleTests.m; sourceTree = "<group>"; };
+		1146A5C21950919F002F5544 /* PTOutlineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTOutlineButton.h; sourceTree = "<group>"; };
+		1146A5C31950919F002F5544 /* PTOutlineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTOutlineButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				1146A59F195090F3002F5544 /* Main.storyboard */,
 				1146A5A2195090F3002F5544 /* ViewController.h */,
 				1146A5A3195090F3002F5544 /* ViewController.m */,
+				1146A5C21950919F002F5544 /* PTOutlineButton.h */,
+				1146A5C31950919F002F5544 /* PTOutlineButton.m */,
 				1146A5A5195090F3002F5544 /* Images.xcassets */,
 				1146A594195090F3002F5544 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1146A5C41950919F002F5544 /* PTOutlineButton.m in Sources */,
 				1146A5A4195090F3002F5544 /* ViewController.m in Sources */,
 				1146A59E195090F3002F5544 /* AppDelegate.m in Sources */,
 				1146A59A195090F3002F5544 /* main.m in Sources */,
